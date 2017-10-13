@@ -11,7 +11,7 @@
 <table border="1">
     <tr><th>Titulo</th><th>Autor</th><th>Precio</th></tr>
             <%List<Libro> libros=(List<Libro>)request.getAttribute("libros");
-				for(Libro lib:libros){%>
+				for(Libro lib:libros){%> 
               	<td><%=lib.getTitulo()%></td>
 				<td><%=lib.getAutor()%></td>
 				<td><%=lib.getPrecio()%></td></tr>
